@@ -3,7 +3,7 @@ import {dateBuilder} from "./utils"
 import API from "./config";
 
 function App() {
-    // console.log({API})
+
     const [query, setQuery] = useState("Tel Aviv");
     const [weather, setWeather] = useState({});
     const [location, setLocation] = useState({});
